@@ -1,0 +1,111 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(to right, #0f172a, #1e293b, #334155);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    color: #f1f5f9;
+}
+
+.login-container {
+    background-color: #f8fafc;
+    padding: 2.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 30rem;
+    transform: scale(1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-container:hover {
+    transform: scale(1.03);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4);
+}
+
+.login-title {
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+    color: #0f172a;
+    margin-bottom: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1.75rem;
+}
+
+.form-group.password {
+    margin-bottom: 2.25rem;
+}
+
+.form-label {
+    display: block;
+    color: #1e293b;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.form-input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    color: #0f172a;
+    outline: none;
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.form-input:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.4);
+}
+
+.submit-button {
+    width: 100%;
+    background-color: #1e40af;
+    color: #ffffff;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    font-size: 1.125rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    transform: scale(1);
+}
+
+.submit-button:hover {
+    background-color: #1d4ed8;
+    transform: scale(1.04);
+}
+
+.submit-button:focus {
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5), 0 0 0 5px rgba(96, 165, 250, 0.4);
+}
+
+.text-link {
+    text-align: center;
+    color: #64748b;
+    font-size: 0.875rem;
+    margin-top: 1.75rem;
+}
+
+.text-link.register {
+    margin-top: 1.25rem;
+}
+
+.text-link a {
+    color: #1e40af;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.text-link a:hover {
+    text-decoration: underline;
+}

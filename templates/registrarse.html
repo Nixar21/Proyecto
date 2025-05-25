@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../static/registrarse.css">
+        <title>Registro</title>
+        </head>
+    <body>
+        <div class="container">
+            <h2 class="title">Registro</h2>
+            <div class="form-card">
+                <form onsubmit="event.preventDefault(); window.location.href='inicio.html'">
+                    <div class="form-group">
+                        <input type="text" placeholder="Nombre" class="input-field" name="nombre">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Gmail" class="input-field" name="email">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Contraseña" class="input-field" name="password">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Confirmar contraseña" class="input-field" name="confirm_password">
+                    </div>
+                        <button type="submit" class="register-button">Registrarse</button>
+                </form>
+                <p class="login-link-text">
+                    ¿Ya tienes una cuenta? <a href="inicio.html" class="login-link">Iniciar sesión</a>
+                </p>
+            </div>
+        </div>
+    </body>
+    </html>
